@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IIM Ranchi</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+	<h1 class="logo">IIM Ranchi</h1>
+	<ul class="nav-links">
+		<li class="ctn"><a href="#">Home</a></li>
+		<li><a href="#">Link 1</a></li>
+		<li><a href="#">Link 2</a></li>
+		<li><a href="#">Link 3</a></li>
+		<li><a href="#">Link 4</a></li>
+	</ul>
+	<img src="images/menu.png" alt="" class="menu-btn">
+</nav>
+
+	<header>
+		<div class="header-content">
+			<h2>Welcome to IIM, Ranchi</h2>
+			<div class="line"></div>
+			<h1>Your Path to Success</h1>
+		</div>
+	</header>
+
+<section class="events">
+	<div class="title">
+		<h1>Upcoming Events</h1>
+		<div class="line"></div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<img src="images/img4.jpg" alt="">
+			<h4>Newsletters</h4>
+			<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+		<div class="col">
+			<img src="images/img4.jpg" alt="">
+			<h4>Events</h4>
+			<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+	</div>
+</section>
+
+<section class="explore">
+<div class="explore-content">
+<h1>Life @ IIM, Ranchi</h1>
+<div class="line"></div>
+<p>Home Away Home</p>
+<a href="#" class="ctn">Learn More</a>
+</div>
+</section>
+
+<section class="courses">
+<div class="row">
+	<div class="col content-col">
+		<h1>OUR COURSES</h1>
+		<div class="line"></div>
+		<p>Lorem ipsum</p>
+		<a href="" class="ctn">Learn More</a>
+	</div>
+
+	<div class="col image-col">
+	<div class="image-gallery">
+		<img src="images/img2.jpg" alt="">
+		<img src="images/img5.jpg" alt="">
+		<img src="images/img6.jpg" alt="">
+		<img src="images/img3.jpg" alt="">
+	</div>
+</div>
+</section>
+
+<section class="footer">
+<div class="row">
+<div class="col">
+<h1 class="logo">IIM Ranchi</h1>
+</div>
+<div class="col">
+<p>Indian Institute of Management Ranchi<br>
+Suchana Bhawan
+5th Floor, Audrey House Campus,<br>
+Meur's Road, Ranchi - 834 008<br>
+Tel: +91 0651 2280113<br>
+Fax: +91 0651 2280940</p>
+</div>
+<div class="col">
+<p>Admissions<br>
+Tender<br>
+Library<br>
+Staff</p>
+</div>
+<div class="col">
+<p>Staff<br>
+RTI<br>
+Careers<br>
+Help</p>
+</div>
+<div class="col">
+<p>Social<br>
+Facebook<br>
+Instagram<br>
+Twitter</p>
+</div>
+</div>
+<p align="center">Copyright IIM Ranchi, 2022.</p>
+</section>
+
+<script>
+	const menuBtn = document.querySelector('.menu-btn');
+	const navlinks = document.querySelector('.nav-links');
+
+	menuBtn.addEventListener('click',()=>{
+		navlinks.classList.toggle('mobile-menu')
+	})
+</script>
+
+</body>
+</html>
+
