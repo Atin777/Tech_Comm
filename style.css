@@ -242,17 +242,9 @@ font-size: 15px;
 ::-webkit-scrollbar-track {
   background: #216348; 
 }
- 
-::-webkit-scrollbar-track:hover {
-  background: #8CC63F; 
-}
 
 ::-webkit-scrollbar-thumb {
   background: #8CC63F; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #216348; 
 }
 
 @media only screen and (max-width: 850px){
