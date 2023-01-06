@@ -236,6 +236,7 @@ font-size: 15px;
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 20px;
 }
 
 ::-webkit-scrollbar-track {
@@ -243,7 +244,7 @@ font-size: 15px;
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #fff; 
+  background: #ffffff; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
